@@ -1,8 +1,11 @@
-.butom{
+@import './variaveis.scss';
+
+.butom {
     border-radius: 5px;
     padding: 0.7rem;
     font-size: 12px;
     text-align: center;
     align-items: center;
-    color: white;
+    color: $white;
+    background-color: $primary-color;
 }

@@ -1,50 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@200&display=swap");
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
   min-height: 100vh;
   box-sizing: border-box;
-  background-color: rgb(226, 214, 214);
+  background-color: hsl(30, 38%, 92%);
 }
 
 .butom {
   border-radius: 5px;
   padding: 0.7rem;
-  background-color: rgb(33, 90, 33);
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   align-items: center;
-  color: #eee;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+}
+
+.butom {
+  border-radius: 5px;
+  padding: 0.7rem;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 14%;
 }
 .container .imagem {
-  width: 200px;
-  height: 349px;
+  width: 210px;
+  height: 338px;
 }
 
 .informacoes {
-  padding: 2rem;
-  background-color: white;
+  padding: 1rem 2.5rem;
+  background-color: hsl(0, 0%, 100%);
 }
 .informacoes .titulo {
-  font-size: 10px;
+  font-family: "Fraunces", serif;
+  font-weight: 100;
+}
+.informacoes .subtitulo {
+  font-family: "Fraunces", serif;
+}
+.informacoes .text {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
 }
 .informacoes .preco {
-  color: rgb(33, 90, 33);
+  color: hsl(158, 36%, 37%);
+  font-weight: bolder;
 }
 .informacoes .dinheiro {
   display: flex;
-}
-.informacoes .dinheiro .preco {
-  font-weight: bolder;
+  font-family: "Fraunces", serif;
 }
 .informacoes .dinheiro .desconto {
   padding: 0 2rem;
+  color: hsl(212, 21%, 14%);
 }
 .informacoes .info-container {
   display: inline-block;

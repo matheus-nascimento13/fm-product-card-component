@@ -1,41 +1,66 @@
 @import './_abstract/base.scss';
 @import './componentes/variaveis.scss';
 @import'./componentes/botao.scss';
+@import './componentes/botao.scss';
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@200&display=swap');
 
 
-.container{
-    display:flex;
+
+
+
+.container {
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 14%;
-    .imagem{
-        width: 200px;
-        height: 349px;
+
+
+    .imagem {
+        width: 210px;
+        height: 338px;
     }
-        
+
 }
 
-.informacoes{
-    padding: 2rem;
-    background-color: white;
-    .titulo{
-        font-size: 10px;
+.informacoes {
+    padding: 1rem 2.5rem;
+    background-color: $white;
+
+
+    .titulo {
+        font-family: 'Fraunces', serif;
+        font-weight: 100;
     }
-    .preco{
-        color: $cor-do-preco;
+
+    .subtitulo {
+        font-family: 'Fraunces', serif;
     }
-    .dinheiro{
+
+    .text {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .preco {
+        color: $primary-color;
+        font-weight: bolder;
+    }
+
+    .dinheiro {
         display: flex;
-        .preco{
-            font-weight: bolder;
-        }
-        .desconto{
+        font-family: 'Fraunces', serif;
+
+        .desconto {
             padding: 0 2rem;
+            color: $very-dark-blue
         }
-        
+
     }
-    
-    .info-container{
+
+    .info-container {
         display: inline-block
     }
 }

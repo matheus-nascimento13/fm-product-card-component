@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
   min-height: 100vh;
   box-sizing: border-box;
-  background-color: rgb(226, 214, 214);
+  background-color: hsl(30, 38%, 92%);
 }/*# sourceMappingURL=base.css.map */

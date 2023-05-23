@@ -1,11 +1,14 @@
-@mixin reset{
+@mixin reset {
     margin: 0;
     padding: 0;
 }
 
-body{
-   @include reset();
-   min-height: 100vh;
-   box-sizing: border-box;
-   background-color: rgb(226, 214, 214);
+body {
+
+    @include reset();
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
 }
